@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE NEWSPAPER SYSTEM "../DTD/NEWSPAPER.dtd">
-
+<!DOCTYPE NEWSPAPER [
+  <!ENTITY NEWSPAPER "Vervet Logic Times">
+  <!ENTITY PUBLISHER "Vervet Logic Press">
+  <!ENTITY COPYRIGHT "Copyright 1998 Vervet Logic Press">
+  <!ENTITY % dtd SYSTEM "../DTD/NEWSPAPER.dtd">
+  %dtd;
+]>
 <NEWSPAPER>
     <ARTICLE AUTHOR="Nguyễn Văn A" EDITOR="Biên tập viên B" DATE="2025-07-20" EDITION="Sáng">
         <HEADLINE>Bão lớn đổ bộ vào miền Trung</HEADLINE>

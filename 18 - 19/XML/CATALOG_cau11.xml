@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE CATALOG SYSTEM "../DTD/CATALOG_cau11.dtd">
-
+<!DOCTYPE CATALOG [
+  <!ENTITY AUTHOR "John Doe">
+  <!ENTITY COMPANY "JD Power Tools, Inc.">
+  <!ENTITY EMAIL "jd@jd-tools.com">
+  <!ENTITY % dtd SYSTEM "../DTD/CATALOG_cau11.dtd">
+  %dtd;
+]>
 <CATALOG>
     <PRODUCT NAME="Máy khoan điện" CATEGORY="HandTool" PARTNUM="P123" PLANT="Pittsburgh" INVENTORY="InStock">
         <SPECIFICATIONS WEIGHT="1.5kg" POWER="500W">Thân hợp kim chắc chắn</SPECIFICATIONS>
