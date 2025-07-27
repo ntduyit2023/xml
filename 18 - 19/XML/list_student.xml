@@ -11,7 +11,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this 
 <list>
     <class id="C001">Lớp Công nghệ thông tin K11</class>
     <class id="C002">Lớp Khoa học dữ liệu K11</class>
-    
     <students>
         <student idClass="C001" gender="1">
             <number>001</number>

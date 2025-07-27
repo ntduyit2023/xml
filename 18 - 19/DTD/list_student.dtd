@@ -20,7 +20,7 @@
 -->
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT list (class,students)*>
+<!ELEMENT list (class+,students)>
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT class (#PCDATA)>
@@ -36,7 +36,7 @@
 <!ATTLIST student
     idClass IDREF #REQUIRED
     gender (0|1) #REQUIRED
-    top CDATA #IMPLIED
+    top (yes) #IMPLIED
   >
 
 <!--- Put your DTDDoc comment here. -->
