@@ -20,7 +20,7 @@
 -->
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT parts (title,part)*>
+<!ELEMENT parts (title,part+)>
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT title (#PCDATA)>
