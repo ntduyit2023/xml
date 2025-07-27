@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cuahang SYSTEM "../DTD/CuaHang.dtd">
+
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<cuahang>
+    <tencuahang>Điện Máy ABC</tencuahang>
+    <sodienthoai>0123456789</sodienthoai>
+    <doanhthu>250000000</doanhthu>
+
+    <khachhang ma="KH001" hang="kimcuong" kyhieu="VN" gioitinh="nam">
+        <hoten>Nguyễn Văn A</hoten>
+        <dienthoai>0909123456</dienthoai>
+        <dienthoai>0987654321</dienthoai>
+        <email>vana@example.com</email>
+    </khachhang>
+
+    <khachhang ma="KH002" hang="vang" kyhieu="US" gioitinh="nu" banbe="KH001 KH003">
+        <hoten>Jane Smith</hoten>
+        <dienthoai>0911222333</dienthoai>
+    </khachhang>
+
+    <khachhang ma="KH003">
+        <hoten>Trần Văn C</hoten>
+        <dienthoai>0900000000</dienthoai>
+        <email>tranvc@example.com</email>
+    </khachhang>
+</cuahang>
+

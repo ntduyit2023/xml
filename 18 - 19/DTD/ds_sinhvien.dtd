@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/list_student.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE daihoc SYSTEM "list_student.dtd">
+
+    <daihoc>
+    ...
+    </daihoc>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT daihoc (khoa)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT khoa (lop)*>
+<!ATTLIST khoa
+    ma_khoa ID #REQUIRED
+    ten_khoa CDATA #REQUIRED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT lop (sinhvien)*>
+<!ATTLIST lop
+    ma_lop ID #REQUIRED
+    ten_lop CDATA #REQUIRED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT sinhvien (ho_ten,email,dia_chi,sdt)>
+<!ATTLIST sinhvien
+    mssv ID #REQUIRED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT ho_ten (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT email (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT dia_chi (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT sdt (#PCDATA)>

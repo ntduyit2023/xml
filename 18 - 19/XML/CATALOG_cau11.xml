@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CATALOG SYSTEM "../DTD/CATALOG_cau11.dtd">
+
+<CATALOG>
+    <PRODUCT NAME="Máy khoan điện" CATEGORY="HandTool" PARTNUM="P123" PLANT="Pittsburgh" INVENTORY="InStock">
+        <SPECIFICATIONS WEIGHT="1.5kg" POWER="500W">Thân hợp kim chắc chắn</SPECIFICATIONS>
+        <SPECIFICATIONS WEIGHT="1.7kg" POWER="600W">Phiên bản nâng cấp</SPECIFICATIONS>
+        <OPTIONS FINISH="Polished" ADAPTER="Optional" CASE="Soft">Tùy chọn thêm tay cầm phụ</OPTIONS>
+        <PRICE MSRP="120" WHOLESALE="100" STREET="110" SHIPPING="5">Giá bán đề xuất</PRICE>
+        <PRICE MSRP="150" WHOLESALE="130" STREET="140" SHIPPING="7">Giá bán bản nâng cấp</PRICE>
+        <NOTES>Sản phẩm được bảo hành 12 tháng</NOTES>
+    </PRODUCT>
+
+    <PRODUCT NAME="Bàn cưa" CATEGORY="Shop-Professional" PARTNUM="C456" PLANT="Milwaukee" INVENTORY="Backordered">
+        <SPECIFICATIONS WEIGHT="15kg" POWER="2000W">Cắt gỗ công nghiệp</SPECIFICATIONS>
+        <PRICE MSRP="300" WHOLESALE="260" STREET="280" SHIPPING="20">Giá thị trường</PRICE>
+    </PRODUCT>
+</CATALOG>

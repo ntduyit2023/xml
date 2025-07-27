@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TVSCHEDULE SYSTEM "../DTD/TVSCHEDULE.dtd">
+
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<TVSCHEDULE NAME="Weekly TV Schedule">
+  <CHANNEL CHAN="VTV1">
+    <BANNER>Vietnam Television - Channel 1</BANNER>
+    <DAY>
+      <DATE>2025-07-21</DATE>
+      <HOLIDAY>National Broadcasting Day</HOLIDAY>
+      <PROGRAMSLOT VTR="No">
+        <TIME>08:00</TIME>
+        <TITLE RATING="G" LANGUAGE="Vietnamese">Morning News</TITLE>
+        <DESCRIPTION>Daily news and weather updates.</DESCRIPTION>
+      </PROGRAMSLOT>
+      <PROGRAMSLOT>
+        <TIME>10:00</TIME>
+        <TITLE RATING="PG" LANGUAGE="English">Documentary World</TITLE>
+      </PROGRAMSLOT>
+    </DAY>
+    <DAY>
+      <DATE>2025-07-22</DATE>
+      <PROGRAMSLOT>
+        <TIME>09:00</TIME>
+        <TITLE RATING="G">Cartoon Time</TITLE>
+        <DESCRIPTION>Kids entertainment program.</DESCRIPTION>
+      </PROGRAMSLOT>
+    </DAY>
+  </CHANNEL>
+</TVSCHEDULE>
+

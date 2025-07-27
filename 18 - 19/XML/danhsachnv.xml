@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE danhsach SYSTEM "../DTD/danhsachnv.dtd" >
+
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<danhsach>
+    <nhanvien>
+        <ma>1</ma>
+        <ho>Nguyễn</ho>
+        <ten>Sơn</ten>
+        <anh>https://domain.com.vn/img/son.jpg</anh>
+    </nhanvien>
+    <nhanvien>
+        <ma>2</ma>
+        <ho>Phạm</ho>
+        <ten>An</ten>
+        <anh>https://domain.com.vn/img/an.jpg</anh>
+    </nhanvien>
+    <nhanvien>
+        <ma>3</ma>
+        <ho>Trần</ho>
+        <ten>Phước</ten>
+        <anh>https://domain.com.vn/img/phuoc.jpg</anh>
+    </nhanvien>
+</danhsach>
+

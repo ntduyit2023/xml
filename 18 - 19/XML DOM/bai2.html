@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>Bài 2 - XML DOM</title></head>
+<body>
+  <h3>Kết quả bài 2</h3>
+  <div id="out"></div>
+
+  <script>
+    // Các hàm xử lý Element Node
+    function firstChild(x) {
+      return [...x.childNodes].find(n => n.nodeType === 1);
+    }
+
+    function nextSibling(x) {
+      let n = x.nextSibling;
+      while (n && n.nodeType !== 1) n = n.nextSibling;
+      return n;
+    }
+
+    function previousSibling(x) {
+      let n = x.previousSibling;
+      while (n && n.nodeType !== 1) n = n.previousSibling;
+      return n;
+    }
+
+    function childNodes(x) {
+      return [...x.childNodes].filter(n => n.nodeType === 1);
+    }
+
+    // Duyệt XML qua XMLHttpRequest
+    const $ = document.getElementById("out");
+    const xhttp = new XMLHttpRequest();
+
+    xhttp.onload = function () {
+      const xml = xhttp.responseXML;
+      const root = xml.getElementsByTagName("bookstore")[0];
+      let html = "";
+
+      // 1. firstChild(bookstore)
+      const first = firstChild(root);
+      html += `<p>1. firstChild(bookstore): ${first.nodeName}</p>`;
+
+      // 2. nextSibling(book đầu)
+      const next = nextSibling(first);
+      html += `<p>2. nextSibling(book 1): ${next.nodeName}</p>`;
+
+      // 3. childNodes(book 2)
+      const children = childNodes(next);
+      html += `<p>3. childNodes(book 2):</p>`;
+      children.forEach(c => {
+        html += `&nbsp;&nbsp;- ${c.nodeName}: ${c.textContent}<br>`;
+      });
+
+      // 4. previousSibling(year)
+      const year = next.getElementsByTagName("year")[0];
+      const prev = previousSibling(year);
+      html += `<p>4. previousSibling(year): ${prev.nodeName}</p>`;
+
+      $.innerHTML = html;
+    };
+
+    xhttp.open("GET", "books.xml");
+    xhttp.send();
+  </script>
+</body>
+</html>

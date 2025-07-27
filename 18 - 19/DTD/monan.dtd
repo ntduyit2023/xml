@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/monan.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE danhsachmonan SYSTEM "monan.dtd">
+
+    <danhsachmonan>
+    ...
+    </danhsachmonan>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT danhsachmonan (mon)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT mon (ten,gia,mota,nangluong,lienket)>
+<!ATTLIST mon
+    id CDATA #REQUIRED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT ten (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT gia (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT mota (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT nangluong (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT lienket (#PCDATA)>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE daihoc SYSTEM "../DTD/ds_sinhvien.dtd" >
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<daihoc>
+    <khoa ma_khoa="CNTT" ten_khoa="Công nghệ thông tin">
+        <lop ma_lop="CNTT01" ten_lop="Lớp Công nghệ thông tin 1">
+            <sinhvien mssv="SV001">
+                <ho_ten>Nguyễn Văn A</ho_ten>
+                <email>nva@example.com</email>
+                <dia_chi>256 Đường Nguyễn Văn Cừ, P.Cái Khế, TP.Cần Thơ</dia_chi>
+                <sdt>0901234567</sdt>
+            </sinhvien>
+            <sinhvien mssv="SV002">
+                <ho_ten>Trần Thị B</ho_ten>
+                <email>ttb@example.com</email>
+                <dia_chi>258 Đường Nguyễn Văn Cừ, P.Cái Khế, TP.Cần Thơ</dia_chi>
+                <sdt>0912345678</sdt>
+            </sinhvien>
+        </lop>
+    </khoa>
+    
+    <khoa ma_khoa="KT" ten_khoa="Kinh tế">
+        <lop ma_lop="KT01" ten_lop="Lớp Kế toán 1">
+            <sinhvien mssv="SV003">
+                <ho_ten>Lê Văn C</ho_ten>
+                <email>lvc@example.com</email>
+                <dia_chi>254 Đường Nguyễn Văn Cừ, P.Cái Khế, TP.Cần Thơ</dia_chi>
+                <sdt>0987654321</sdt>
+            </sinhvien>
+        </lop>
+    </khoa>
+</daihoc>
+

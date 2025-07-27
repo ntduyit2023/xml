@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "../DTD/list_student.dtd" >
+
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<list>
+    <class id="C001">Lớp Công nghệ thông tin K11</class>
+    <class id="C002">Lớp Khoa học dữ liệu K11</class>
+    
+    <students>
+        <student idClass="C001" gender="1">
+            <number>001</number>
+            <lastname>Nguyễn</lastname>
+            <firstname>Văn An</firstname>
+            <grade>8.5</grade>
+        </student>
+        
+        <student idClass="C001" gender="0" top="yes">
+            <number>002</number>
+            <lastname>Trần</lastname>
+            <firstname>Thị Ba</firstname>
+            <grade>9.2</grade>
+        </student>
+        
+        <student idClass="C002" gender="1" top="yes">
+            <number>003</number>
+            <lastname>Lê</lastname>
+            <firstname>Văn C</firstname>
+            <grade>9.5</grade>
+        </student>
+        
+        <student idClass="C002" gender="0">
+            <number>004</number>
+            <lastname>Phạm</lastname>
+            <firstname>Thị D</firstname>
+            <grade>8.0</grade>
+        </student>
+    </students>
+</list>
+

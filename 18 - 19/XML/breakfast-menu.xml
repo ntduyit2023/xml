@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE breakfast-menu SYSTEM "../DTD/breakfast-menu.dtd" >
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<breakfast-menu>
+    <food>
+        <name>Pho bo</name>
+        <price>35.000 VND</price>
+        <description>Pho bo Ha Noi nuoc dung dam da, banh pho mem</description>
+        <calories>450</calories>
+    </food>
+    <food>
+        <name>Banh mi trung </name>
+        <price>20.000 VND</price>
+        <description>Banh mi gion voi trung op la, cha lua va do chua</description>
+        <calories>350</calories>
+    </food>
+    <food>
+        <name>Xoi xeo </name>
+        <price>25.000 VND</price>
+        <description>Xoi nep thom voi hanh phi, ruoc va da heo</description>
+        <calories>400</calories>
+    </food>
+    <food>
+        <name>Banh cuon (Steamed rice rolls)</name>
+        <price>30.000 VND</price>
+        <description>Banh banh cuon mem voi nhan thit va nam</description>
+        <calories>300</calories>
+    </food>
+</breakfast-menu>

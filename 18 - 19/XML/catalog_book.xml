@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog SYSTEM "../DTD/catalog_book.dtd" >
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<catalog>
+    <book id="B01">
+        <author>Nam Cao</author>
+        <title>Chí Phèo</title>
+        <public_date>1941</public_date>
+        <description>Tác phẩm kinh điển về người nông dân nghèo bị tha hóa trong xã hội thực dân nửa phong kiến</description>
+    </book>
+    <book id="B02">
+        <author>Nguyễn Du</author>
+        <title>Truyện Kiều</title>
+        <public_date>1820</public_date>
+        <description>Kiệt tác văn học Việt Nam kể về cuộc đời gian truân của Thúy Kiều</description>
+    </book>
+    <book id="B03">
+        <author>Nguyễn Nhật Ánh</author>
+        <title>Tôi thấy hoa vàng trên cỏ xanh</title>
+        <public_date>2010</public_date>
+        <description>Tiểu thuyết tuổi thơ đầy cảm xúc về tình bạn, tình anh em và những kỷ niệm làng quê</description>
+    </book>
+</catalog>
+

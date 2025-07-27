@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "../DTD/list.dtd" >
+
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<list>
+<student id="01">
+<name>Peabo Bryson</name>
+<genre>Male</genre>
+<CPA>2.81</CPA>
+<email>pb@mail.com</email>
+<address>Hawaii, USA</address>
+</student>
+<student id="02">
+<name>Celine Dion</name>
+<genre>Female</genre>
+<CPA>3.38</CPA>
+<email>cd@mail.com</email>
+<address>Ottawa, Canada</address>
+</student>
+</list>
+

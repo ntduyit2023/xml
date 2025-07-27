@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>XML DOM</title></head>
+<body>
+  <h3>Hiển thị kết quả</h3>
+  <div id="demo"></div>
+
+  <script>
+    const $ = document.getElementById("demo");
+    const x = new XMLHttpRequest();
+    
+    x.onreadystatechange = function () {
+  if (this.readyState == 4 && this.status == 200) {
+      const xml = x.responseXML, b = xml.getElementsByTagName("book"), t = xml.getElementsByTagName("title"), p = xml.getElementsByTagName("price");
+      let h = "";
+
+      h += `<p>1. Gốc: ${xml.documentElement.nodeName}</p>`;
+      h += `<p>2. Các nút con:</p>` + [...xml.documentElement.children].map(e => e.nodeName + ": " + e.textContent.trim()).join("<br>");
+      h += `<p>3. Book đầu: ${b[0].nodeName} - ${b[0].textContent.trim()}</p>`;
+      h += `<p>4. Author book 3: ${b[2].getElementsByTagName("author")[0].textContent}</p>`;
+      h += `<p>5. Số nút con book 3: ${[...b[2].childNodes].filter(n => n.nodeType === 1).length}</p>`;
+      h += `<p>6. Category:</p>` + [...b].map(e => e.getAttribute("category")).join("<br>");
+      h += `<p>7. Bảng Title & Price:</p><table border=1><tr><th>Title</th><th>Price</th></tr>` +
+           [...t].map((e, i) => `<tr><td>${e.textContent}</td><td>${p[i].textContent}</td></tr>`).join("") + "</table>";
+
+      $.innerHTML = h;
+  }
+    };
+    x.open("GET", "books.xml"); 
+    x.send();
+  </script>
+</body>
+</html>

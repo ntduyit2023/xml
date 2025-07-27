@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/danhsachnv.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE danhsach SYSTEM "danhsachnv.dtd">
+
+    <danhsach>
+    ...
+    </danhsach>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT danhsach (nhanvien)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT nhanvien (ma,ho,ten,anh)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT ma (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT ho (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT ten (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT anh (#PCDATA)>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE parts SYSTEM "../DTD/part.dtd" >
+
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<parts>
+    <title>computer parts</title>
+    <part>
+        <item id="01">motherboard</item>
+        <manufacturer>asus</manufacturer>
+        <model>p3b-f</model>
+        <cost>123.00</cost>
+    </part>
+    <part>
+        <item id="02">video card</item>
+        <manufacturer>ati</manufacturer>
+        <model>all-in-wonder pro</model>
+        <cost>160.00</cost>
+    </part>
+    <part>
+        <item id="03">sound card</item>
+        <manufacturer>creative labs</manufacturer>
+        <model>sound blaster live</model>
+        <cost>80.00</cost>
+    </part>
+</parts>
+

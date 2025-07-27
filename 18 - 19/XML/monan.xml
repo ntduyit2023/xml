@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE danhsachmonan SYSTEM "../DTD/monan.dtd" >
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+<danhsachmonan>
+<mon id="1">
+<ten>Phở Bò</ten>
+<gia>50000</gia>
+<mota>Mon pho truyền thống với nuớc dung dam da va thit bò tuoi</mota>
+<nangluong><![CDATA[450 kcal (ước tính, phục vụ 1 tô)]]></nangluong>
+<lienket><![CDATA[<a href="https://example.com/pho-bo">Chi tiết món Phở
+Bò</a>]]></lienket>
+</mon>
+<mon id="2">
+<ten>Banh Mì Thịt</ten>
+<gia>25000</gia>
+<mota>Bánh mì giòn kẹp thịt nguội và rau tươi</mota>
+<nangluong><![CDATA[300 kcal (chi mang tinh tham khao)]]></nangluong>
+<lienket><![CDATA[<a href="https://example.com/banh-mi-thit">Chi tiet Banh Mi
+Thit</a>]]></lienket>
+</mon>
+</danhsachmonan>
+

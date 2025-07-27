@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/breakfast-menu.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE breakfast-menu SYSTEM "breakfast-menu.dtd">
+
+    <breakfast-menu>
+    ...
+    </breakfast-menu>
+-->
+
+<!ELEMENT breakfast-menu (food+)>
+<!ELEMENT food (name, price, description, calories)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT calories (#PCDATA)>

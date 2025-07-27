@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NEWSPAPER SYSTEM "../DTD/NEWSPAPER.dtd">
+
+<NEWSPAPER>
+    <ARTICLE AUTHOR="Nguyễn Văn A" EDITOR="Biên tập viên B" DATE="2025-07-20" EDITION="Sáng">
+        <HEADLINE>Bão lớn đổ bộ vào miền Trung</HEADLINE>
+        <BYLINE>Phóng viên Trần Thị C</BYLINE>
+        <LEAD>Bão số 5 đã gây thiệt hại nặng nề cho các tỉnh ven biển.</LEAD>
+        <BODY>Bài viết mô tả thiệt hại, công tác cứu hộ và phản ứng của chính quyền địa phương.</BODY>
+        <NOTES>Thông tin cập nhật đến 10:00 sáng nay.</NOTES>
+    </ARTICLE>
+
+    <ARTICLE AUTHOR="Trần Minh D">
+        <HEADLINE>Giải vô địch bóng đá châu Âu</HEADLINE>
+        <BYLINE>PV thể thao</BYLINE>
+        <LEAD>Trận chung kết diễn ra hấp dẫn với nhiều bàn thắng.</LEAD>
+        <BODY>Đội tuyển Anh đánh bại Đức với tỉ số 3-2 sau 120 phút kịch tính.</BODY>
+        <NOTES>Thống kê chi tiết trận đấu ở trang 5.</NOTES>
+    </ARTICLE>
+</NEWSPAPER>

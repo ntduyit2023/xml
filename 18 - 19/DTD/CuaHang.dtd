@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/CuaHang.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE cuahang SYSTEM "CuaHang.dtd">
+
+    <cuahang>
+    ...
+    </cuahang>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT cuahang (tencuahang, sodienthoai, doanhthu, khachhang*)>
+<!ELEMENT tencuahang (#PCDATA)>
+<!ELEMENT sodienthoai (#PCDATA)>
+<!ELEMENT doanhthu (#PCDATA)>
+
+<!ELEMENT khachhang (hoten, dienthoai+, email?)>
+<!ATTLIST khachhang 
+    ma ID #REQUIRED
+    hang (kimcuong | vang | bac | dong) "dong"
+    kyhieu NMTOKEN "VN"
+    gioitinh (nam | nu | khac) #IMPLIED
+    banbe IDREFS #IMPLIED>
+
+<!ELEMENT hoten (#PCDATA)>
+<!ELEMENT dienthoai (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
